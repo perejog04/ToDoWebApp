@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <title>ToDo</title>
 </head>
 <body>
+    <div class="page">
+        <main class="main">
+            <div class="container">
+                <h3>ToDo</h3>
+                <div class="innerToDo">
+                    <input id="toDo" class="inputToDo" type="text" placeholder="I will do...">
+                    <button class="makeToDo">Add</button>
+                </div>
+                <div class="willDo-list">
+                    <div class="willDo-item">smthWillDo</div>
+                </div>
+                <div class="wasDoing-list">
+                    <div class="wasDoing-item">smthDone</div>
+                </div>
+            </div>
+        </main>
+    </div>
     
-
     <script src="js/main.js"></script>
 </body>
 </html>

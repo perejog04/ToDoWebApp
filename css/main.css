@@ -12,11 +12,11 @@ body {
 
     margin: 0;
 
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 
-    color: rgb(255, 255, 255);
-    background-color: #000;
+    color: black;
+    background-color: #ffffff;
 }
 
 *,
@@ -31,4 +31,104 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 0 0 10px;
+}
+
+.page {
+    padding: 50px 0px;
+
+    width: 100%;
+    height: 100vh;
+
+    background: #7d7d7d;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 24px 100px 20px 100px;
+    max-width: 1000px;
+
+    background: #b3b3b3;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.innerToDo {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.inputToDo {
+    margin: 0;
+    width: 600px;
+    height: 60px;
+
+    font-size: 2rem;
+
+    border-radius: 10px;
+}
+
+.makeToDo {
+    margin: 0;
+    width: 100px;
+    height: 60px;
+
+    background-color: azure;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.willDo-list {
+    /* margin: 2rem auto 0 auto; */
+}
+
+.willDo-item {
+    margin: 2rem auto 0 auto;
+    padding: 10px;
+
+    position: relative;
+}
+
+.willDo-item::before {
+    content: "";
+    position: absolute;
+    left: -3rem;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: white;
+}
+
+.wasDoing-list {
+    /* margin: 2rem auto 0 auto; */
+}
+
+.wasDoing-item {
+    margin: 2rem 0 0 0;
+    padding: 10px;
+    text-decoration: line-through;
+    width:max-content;
+    position: relative;
+
+    background-color: #7d7d7d;
+    border-radius: 10px;
+}
+
+.wasDoing-item::before {
+    content: "";
+    position: absolute;
+    left: -3rem;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: green;
 }
