@@ -1,0 +1,34 @@
+/* INITIAL STYLE */
+
+html {
+    font-size: 15px;
+}
+
+body {
+    /*
+    min-width: ;
+    min-height: ;
+    */
+
+    margin: 0;
+
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
