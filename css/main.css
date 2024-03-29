@@ -91,8 +91,9 @@ p {
 }
 
 .willDo-item {
-    margin: 2rem auto 0 auto;
+    margin: 2rem 0 0 0;
     padding: 10px;
+    width:max-content;
 
     position: relative;
 }
@@ -107,6 +108,31 @@ p {
 
     background-color: white;
 }
+
+.willDo-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.willDelete-btn {
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* .willDo-item::after {
+    content: "Delete";
+    position: absolute;
+    padding: 5px;
+
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    right: -600px;
+} */
 
 .wasDoing-list {
     /* margin: 2rem auto 0 auto; */
@@ -132,4 +158,18 @@ p {
     height: 30px;
 
     background-color: green;
+}
+
+.wasDoing-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wasDelete-btn {
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
 }
